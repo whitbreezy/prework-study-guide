@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #99bff1, #0a134b);
+  }
+  
+  .notes-heading {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .box {
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .box1:hover {
+    transform: scale(1.1);
+    background-color: rgb(250, 185, 20);
+  }
+  .box2:hover {
+    transform: scale(1.1);
+    background-color: rgba(83, 109, 237, 0.826);
+  }
+  .box3:hover {
+    transform: scale(1.1);
+    background-color: rgba(233, 38, 240, 0.826);
+  }
+  .box4:hover {
+    transform: scale(1.1);
+    background-color: rgb(245, 255, 56);
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
